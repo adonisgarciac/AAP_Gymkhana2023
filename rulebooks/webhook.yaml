@@ -14,13 +14,16 @@
   rules:
     - name: Telegram message for team01
       condition: event.payload.message == "team01"
-      action:
-        run_job_template:
-          name: "Send Telegram"
-          organization: Default
-          job_args:
-            extra_vars:
-               team_name: team01
+      actions:
+        - run_job_template:
+            name: "Send Telegram"
+            organization: Default
+            job_args:
+              extra_vars:
+                 team_name: team01
+        - debug:
+            msg: "Check your telegram group"
+
 
     - name: Telegram message for team02
       condition: event.payload.message == "team02"

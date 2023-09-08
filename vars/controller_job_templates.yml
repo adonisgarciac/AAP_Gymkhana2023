@@ -6,6 +6,7 @@ controller_templates:
     project: "AAP Gymkhana2023 Admin"
     inventory: "Localhost"
     playbook: "playbooks/send_telegram.yml"
+    ask_variables_on_launch: true
 
   - name: "VGVhbTAxIFN0ZXAwCg=="
     description: ""
