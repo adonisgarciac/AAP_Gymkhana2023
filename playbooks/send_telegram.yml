@@ -5,4 +5,5 @@
   tasks:
 
     - name: debug
-      var: "{{ team_name }}"
+      debug:
+        var: "{{ team_name }}"
