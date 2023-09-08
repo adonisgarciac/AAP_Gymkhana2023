@@ -1,97 +1,64 @@
 ---
 - name: Listen for events on a webhook
   hosts: all
+
+ ## Define our source for events
+
   sources:
-    - sabre1041.eda.k8s:
-        api_version: "cluster.open-cluster-management.io/v1"
-        kind: ManagedCluster
-        api_key: "{{ vault_api_key }}"
-        label_selectors:
-          - type=eda
-            #  - ansible.eda.webhook:
-            #      host: 192.168.121.147
-            #      port: 5000
+    - ansible.eda.webhook:
+        host: 192.168.121.147
+        port: 5000
+
+ ## Define the conditions we are looking for
+
   rules:
     - name: Telegram message for team01
-      #condition: event.payload.message == "Team name: team01"
-      condition: event.type == "ADDED"
-      actions:
-        - print_event:
-            pretty: true
-        - debug:
-            msg: "Run Workflow"
-        #      action:
-        #        run_job_template:
-        #          name: "Send Telegram"
-        #          organization: Default
-        #          job_args:
-        #            extra_vars:
-        #               team_name: team01
-...
-
-
-
-
-#- name: Listen for events on a webhook
-#  hosts: all
-#
-# ## Define our source for events
-#
-#  sources:
-#    - ansible.eda.webhook:
-#        host: 192.168.121.147
-#        port: 5000
-#
-# ## Define the conditions we are looking for
-#
-#  rules:
-#    - name: Telegram message for team01
 #      condition: event.payload.message == "Team name: team01"
-#      action:
-#        run_job_template:
-#          name: "Send Telegram"
-#          organization: Default
-#          job_args:
-#            extra_vars:
-#               team_name: team01
-#
-#    - name: Telegram message for team02
+      action:
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team01
+
+    - name: Telegram message for team02
 #      condition: event.payload.message == "Team name: team02"
-#      action:
-#        run_job_template:
-#          name: "Send Telegram"
-#          organization: Default
-#          job_args:
-#            extra_vars:
-#               team_name: team02
-#
-#    - name: Telegram message for team03
+      action:
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team02
+
+    - name: Telegram message for team03
 #      condition: event.payload.message == "Team name: team03"
-#      action:
-#        run_job_template:
-#          name: "Send Telegram"
-#          organization: Default
-#          job_args:
-#            extra_vars:
-#               team_name: team03
-#
-#    - name: Telegram message for team04
+      action:
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team03
+
+    - name: Telegram message for team04
 #      condition: event.payload.message == "Team name: team04"
-#      action:
-#        run_job_template:
-#          name: "Send Telegram"
-#          organization: Default
-#          job_args:
-#            extra_vars:
-#               team_name: team04
-#
-#    - name: Telegram message for team05
+      action:
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team04
+
+    - name: Telegram message for team05
 #      condition: event.payload.message == "Team name: team05"
-#      action:
-#        run_job_template:
-#          name: "Send Telegram"
-#          organization: Default
-#          job_args:
-#            extra_vars:
-#               team_name: team05
-#...
+      action:
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team05
+...
