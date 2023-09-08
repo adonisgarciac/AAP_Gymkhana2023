@@ -1,5 +1,12 @@
 ---
 controller_templates:
+  - name: "Send Telegram"
+    description: "Send Telegram"
+    organization: "Default"
+    project: "AAP Gymkhana2023 Admin"
+    inventory: "Localhost"
+    playbook: "playbooks/send_telegram.yml"
+
   - name: "VGVhbTAxIFN0ZXAwCg=="
     description: ""
     organization: "team01"

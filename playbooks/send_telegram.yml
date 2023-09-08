@@ -1,0 +1,8 @@
+- name: Send telegram message
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+
+    - name: debug
+      var: "{{ team_name }}"
