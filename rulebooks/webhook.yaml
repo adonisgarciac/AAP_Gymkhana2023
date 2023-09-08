@@ -14,7 +14,7 @@
   rules:
     - name: Telegram message for team01
 #      condition: event.payload.message == "Team name: team01"
-      condition: event.payload.message == "Ansible is: super cool!"
+      condition: event.payload.message == "Ansible is super cool!"
       action:
         run_job_template:
           name: "Send Telegram"
