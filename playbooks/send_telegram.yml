@@ -25,5 +25,4 @@
 
     - name: Sending message
       ansible.builtin.uri:
-      var:
         url: "https://api.telegram.org/bot{{ tokenBot }}/sendmessage?chat_id={{ gymkanaGroups[team_name]['chatID'] }}&parse_mode=HTML&text={{ gymkanaGroups[team_name]['msgVar'] }}"
