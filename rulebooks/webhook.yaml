@@ -13,7 +13,8 @@
             #      port: 5000
   rules:
     - name: Telegram message for team01
-      condition: event.payload.message == "Team name: team01"
+      #condition: event.payload.message == "Team name: team01"
+      condition: event.type == "ADDED"
       actions:
         - print_event:
             pretty: true
