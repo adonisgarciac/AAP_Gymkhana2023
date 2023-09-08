@@ -1,0 +1,6 @@
+---
+controller_inventories:
+  - name: "Localhost"
+    description: "Inventory for the Localhost"
+    organization: default
+...

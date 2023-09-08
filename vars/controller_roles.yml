@@ -1,0 +1,23 @@
+---
+controller_roles:
+  - user: "admin_team01"
+    organizations:
+      - "team01"
+    role: admin
+  - user: "admin_team02"
+    organizations:
+      - "team02"
+    role: admin
+  - user: "admin_team03"
+    organizations:
+      - "team03"
+    role: admin
+  - user: "admin_team04"
+    organizations:
+      - "team04"
+    role: admin
+  - user: "admin_team05"
+    organizations:
+      - "team05"
+    role: admin
+...

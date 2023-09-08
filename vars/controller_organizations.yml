@@ -1,0 +1,8 @@
+---
+controller_organizations:
+  - name: "team01"
+  - name: "team02"
+  - name: "team03"
+  - name: "team04"
+  - name: "team05"
+...
