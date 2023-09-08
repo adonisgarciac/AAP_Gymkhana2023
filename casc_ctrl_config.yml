@@ -10,6 +10,7 @@
     - vars/controller_users.yml
     - vars/controller_organizations.yml
     - vars/controller_inventories.yml
+    - vars/controller_credentials.yml
   vars:
     controller_configuration_projects_async_retries: 120
     controller_configuration_projects_async_delay: 2

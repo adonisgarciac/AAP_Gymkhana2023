@@ -1,23 +1,28 @@
 - name: Send telegram message
   hosts: localhost
   gather_facts: false
+  vars_files:
+    - vault.yml
   vars:
     gymkanaGroups:
       team01:
-        id: "-965962147"
+        chatId: "-965962147"
+        msgVar: "Team: team01; URL: https://controller; User: test1; Password: test"
       team02:
-        id: "-986132187"
+        chatId: "-986132187"
+        msgVar: "Team: team02; URL: https://controller; User: test2; Password: test"
       team03:
-        id: "-842460734"
+        chatId: "-842460734"
+        msgVar: "Team: team03; URL: https://controller; User: test3; Password: test"
       team04:
-        id: "-928100725"
+        chatId: "-928100725"
+        msgVar: "Team: team04; URL: https://controller; User: test4; Password: test"
       team05:
-        id: "-942244898"
+        chatId: "-942244898"
+        msgVar: "Team: team05; URL: https://controller; User: test5; Password: test"
 
   tasks:
 
     - name: Sending message
-      debug:
-        msg: "{{ gymkanaGroups[team_name]['id'] }}"
-      #      ansible.builtin.uri:
-        #        url: "https://api.telegram.org/bot{{ tokenBot }}/sendmessage?chat_id={{ chatID }}&parse_mode=HTML&text={{ msgVar }}"
+      ansible.builtin.uri:
+        url: "https://api.telegram.org/bot{{ tokenBot }}/sendmessage?chat_id={{ chatID }}&parse_mode=HTML&text={{ msgVar }}"
