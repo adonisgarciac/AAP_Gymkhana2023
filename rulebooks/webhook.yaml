@@ -15,50 +15,50 @@
     - name: Telegram message for team01
       condition: event.payload.message == "Team name: team01"
       action:
-      run_job_template:
-        name: "Send Telegram"
-        organization: Default
-        job_args:
-          extra_vars:
-             team_name: team01
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team01
 
     - name: Telegram message for team02
       condition: event.payload.message == "Team name: team02"
       action:
-      run_job_template:
-        name: "Send Telegram"
-        organization: Default
-        job_args:
-          extra_vars:
-             team_name: team02
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team02
 
     - name: Telegram message for team03
       condition: event.payload.message == "Team name: team03"
       action:
-      run_job_template:
-        name: "Send Telegram"
-        organization: Default
-        job_args:
-          extra_vars:
-             team_name: team03
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team03
 
     - name: Telegram message for team04
       condition: event.payload.message == "Team name: team04"
       action:
-      run_job_template:
-        name: "Send Telegram"
-        organization: Default
-        job_args:
-          extra_vars:
-             team_name: team04
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team04
 
     - name: Telegram message for team05
       condition: event.payload.message == "Team name: team05"
       action:
-      run_job_template:
-        name: "Send Telegram"
-        organization: Default
-        job_args:
-          extra_vars:
-             team_name: team05
+        run_job_template:
+          name: "Send Telegram"
+          organization: Default
+          job_args:
+            extra_vars:
+               team_name: team05
 ...
