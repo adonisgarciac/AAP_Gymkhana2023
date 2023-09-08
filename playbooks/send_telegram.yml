@@ -6,23 +6,24 @@
   vars:
     gymkanaGroups:
       team01:
-        chatId: "-965962147"
+        chatID: "-965962147"
         msgVar: "Team: team01; URL: https://controller; User: test1; Password: test"
       team02:
-        chatId: "-986132187"
+        chatID: "-986132187"
         msgVar: "Team: team02; URL: https://controller; User: test2; Password: test"
       team03:
-        chatId: "-842460734"
+        chatID: "-842460734"
         msgVar: "Team: team03; URL: https://controller; User: test3; Password: test"
       team04:
-        chatId: "-928100725"
+        chatID: "-928100725"
         msgVar: "Team: team04; URL: https://controller; User: test4; Password: test"
       team05:
-        chatId: "-942244898"
+        chatID: "-942244898"
         msgVar: "Team: team05; URL: https://controller; User: test5; Password: test"
 
   tasks:
 
     - name: Sending message
       ansible.builtin.uri:
-        url: "https://api.telegram.org/bot{{ tokenBot }}/sendmessage?chat_id={{ chatID }}&parse_mode=HTML&text={{ msgVar }}"
+      var:
+        url: "https://api.telegram.org/bot{{ tokenBot }}/sendmessage?chat_id={{ gymkanaGroups[team_name]['chatID'] }}&parse_mode=HTML&text={{ gymkanaGroups[team_name]['msgVar'] }}"
