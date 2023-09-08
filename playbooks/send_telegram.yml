@@ -1,9 +1,23 @@
 - name: Send telegram message
   hosts: localhost
   gather_facts: false
+  vars:
+    gymkanaGroups:
+      team01:
+        id: "-965962147"
+      team02:
+        id: "-986132187"
+      team03:
+        id: "-842460734"
+      team04:
+        id: "-928100725"
+      team05:
+        id: "-942244898"
 
   tasks:
 
-    - name: debug
+    - name: Sending message
       debug:
-        var: "{{ team_name }}"
+        msg: "{{ gymkanaGroups[team_name]['id'] }}"
+      #      ansible.builtin.uri:
+        #        url: "https://api.telegram.org/bot{{ tokenBot }}/sendmessage?chat_id={{ chatID }}&parse_mode=HTML&text={{ msgVar }}"

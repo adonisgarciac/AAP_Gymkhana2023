@@ -21,9 +21,6 @@
             job_args:
               extra_vars:
                  team_name: team01
-        - debug:
-            msg: "Check your telegram group"
-
 
     - name: Telegram message for team02
       condition: event.payload.message == "team02"
