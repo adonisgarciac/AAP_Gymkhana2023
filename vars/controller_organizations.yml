@@ -1,8 +1,8 @@
 ---
 controller_organizations:
-  - name: "team01"
-  - name: "team02"
-  - name: "team03"
-  - name: "team04"
-  - name: "team05"
+  - name: "Team01"
+  - name: "Team02"
+  - name: "Team03"
+  - name: "Team04"
+  - name: "Team05"
 ...

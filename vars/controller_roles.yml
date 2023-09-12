@@ -2,22 +2,22 @@
 controller_roles:
   - user: "admin_team01"
     organizations:
-      - "team01"
+      - "Team01"
     role: admin
   - user: "admin_team02"
     organizations:
-      - "team02"
+      - "Team02"
     role: admin
   - user: "admin_team03"
     organizations:
-      - "team03"
+      - "Team03"
     role: admin
   - user: "admin_team04"
     organizations:
-      - "team04"
+      - "Team04"
     role: admin
   - user: "admin_team05"
     organizations:
-      - "team05"
+      - "Team05"
     role: admin
 ...

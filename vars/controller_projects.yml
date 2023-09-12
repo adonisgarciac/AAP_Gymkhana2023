@@ -8,31 +8,31 @@ controller_projects:
 
   - name: "[Team01] AAP Gymkhana2023 Teams"
     description: "Project to include playbooks to play during Gymkhana2023"
-    organization: "team01"
+    organization: "Team01"
     scm_type: git
     scm_url: "https://github.com/adelahozredhat/AAP_Gymkhana2023_Teams.git"
 
   - name: "[Team02] AAP Gymkhana2023 Teams"
     description: "Project to include playbooks to play during Gymkhana2023"
-    organization: "team02"
+    organization: "Team02"
     scm_type: git
     scm_url: "https://github.com/adelahozredhat/AAP_Gymkhana2023_Teams.git"
 
   - name: "[Team03] AAP Gymkhana2023 Teams"
     description: "Project to include playbooks to play during Gymkhana2023"
-    organization: "team03"
+    organization: "Team03"
     scm_type: git
     scm_url: "https://github.com/adelahozredhat/AAP_Gymkhana2023_Teams.git"
 
   - name: "[Team04] AAP Gymkhana2023 Teams"
     description: "Project to include playbooks to play during Gymkhana2023"
-    organization: "team04"
+    organization: "Team04"
     scm_type: git
     scm_url: "https://github.com/adelahozredhat/AAP_Gymkhana2023_Teams.git"
 
   - name: "[Team05] AAP Gymkhana2023 Teams"
     description: "Project to include playbooks to play during Gymkhana2023"
-    organization: "team05"
+    organization: "Team05"
     scm_type: git
     scm_url: "https://github.com/adelahozredhat/AAP_Gymkhana2023_Teams.git"
 ...
