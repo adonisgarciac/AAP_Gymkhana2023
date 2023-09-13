@@ -14,3 +14,6 @@ EDA Controller:
 2.- Create project pointing to this repo
 3.- Create rulebook pointing to webhook.yaml
 
+
+
+ansible-navigator run casc_ctrl_config.yml -i inventory -m stdout --eei quay.io/automationiberia/aap-gymkana-2023/ee-casc --vault-password-file .vault_password

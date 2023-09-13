@@ -15,14 +15,16 @@ controller_templates:
     organization: "Team01"
     project: "[Team01] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "ZZZZ.yml"
+    credentials:
+      - "Team01 Info Jobs MDA="
 
   - name: "VGVhbTAxIFN0ZXAxCg=="
     description: ""
     organization: "Team01"
     project: "[Team01] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "YYYY.yml"
 
   - name: "VGVhbTAxIFN0ZXAyCg=="
     description: ""
@@ -36,14 +38,16 @@ controller_templates:
     organization: "Team02"
     project: "[Team02] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "ZZZZ.yml"
+    credentials:
+      - "Team02 Info Jobs MDA="
 
   - name: "VGVhbTAyIFN0ZXAxCg=="
     description: ""
     organization: "Team02"
     project: "[Team02] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "YYYY.yml"
 
   - name: "VGVhbTAyIFN0ZXAyCg=="
     description: ""
@@ -57,14 +61,16 @@ controller_templates:
     organization: "Team03"
     project: "[Team03] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "ZZZZ.yml"
+    credentials:
+      - "Team03 Info Jobs MDA="
 
   - name: "VGVhbTAzIFN0ZXAxCg=="
     description: ""
     organization: "Team03"
     project: "[Team03] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "YYYY.yml"
 
   - name: "VGVhbTAzIFN0ZXAyCg=="
     description: ""
@@ -78,14 +84,16 @@ controller_templates:
     organization: "Team04"
     project: "[Team04] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "ZZZZ.yml"
+    credentials:
+      - "Team04 Info Jobs MDA="
 
   - name: "VGVhbTA0IFN0ZXAxCg=="
     description: ""
     organization: "Team04"
     project: "[Team04] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "YYYY.yml"
 
   - name: "VGVhbTA0IFN0ZXAyCg=="
     description: ""
@@ -99,14 +107,16 @@ controller_templates:
     organization: "Team05"
     project: "[Team05] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "ZZZZ.yml"
+    credentials:
+      - "Team05 Info Jobs MDA="
 
   - name: "VGVhbTA1IFN0ZXAxCg=="
     description: ""
     organization: "Team05"
     project: "[Team05] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
-    playbook: "XXXX.yml"
+    playbook: "YYYY.yml"
 
   - name: "VGVhbTA1IFN0ZXAyCg=="
     description: ""
