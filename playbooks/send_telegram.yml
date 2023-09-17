@@ -3,24 +3,24 @@
   hosts: localhost
   gather_facts: false
   vars_files:
-    - vault.yml
+    - vars/vault.yml
   vars:
     gymkanaGroups:
       team01:
         chatID: "-965962147"
-        msgVar: "Team: team01; URL: https://controller; User: admin_team01; Password: {{ pass_team01 }}"
+        msgVar: "Team: team01; URL: https://{{ lookup('env', 'CONTROLLER_HOST') }}; User: admin_team01; Password: {{ pass_team01 }}"
       team02:
         chatID: "-986132187"
-        msgVar: "Team: team02; URL: https://controller; User: admin_team02; Password: {{ pass_team02 }}"
+        msgVar: "Team: team02; URL: https://{{ lookup('env', 'CONTROLLER_HOST') }}; User: admin_team02; Password: {{ pass_team02 }}"
       team03:
         chatID: "-842460734"
-        msgVar: "Team: team03; URL: https://controller; User: admin_team03; Password: {{ pass_team03 }}"
+        msgVar: "Team: team03; URL: https://{{ lookup('env', 'CONTROLLER_HOST') }}; User: admin_team03; Password: {{ pass_team03 }}"
       team04:
         chatID: "-928100725"
-        msgVar: "Team: team04; URL: https://controller; User: admin_team04; Password: {{ pass_team04 }}"
+        msgVar: "Team: team04; URL: https://{{ lookup('env', 'CONTROLLER_HOST') }}; User: admin_team04; Password: {{ pass_team04 }}"
       team05:
         chatID: "-942244898"
-        msgVar: "Team: team05; URL: https://controller; User: admin_team05; Password: {{ pass_team05 }}"
+        msgVar: "Team: team05; URL: https://{{ lookup('env', 'CONTROLLER_HOST') }}; User: admin_team05; Password: {{ pass_team05 }}"
 
   tasks:
 
