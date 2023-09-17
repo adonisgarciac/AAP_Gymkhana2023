@@ -7,6 +7,8 @@ controller_templates:
     inventory: "Localhost"
     playbook: "playbooks/send_telegram.yml"
     ask_variables_on_launch: true
+    extra_vars:
+      controller_hostname: "{{ inventory_hostname }}"
     credentials:
       - "Vault Credential"
 
