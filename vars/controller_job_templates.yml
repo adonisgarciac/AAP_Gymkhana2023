@@ -34,6 +34,8 @@ controller_templates:
     project: "[Team01] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "XXXX.yml"
+    extra_vars:
+      team_name: "team01"
 
   - name: "VGVhbTAyIFN0ZXAwCg=="
     description: ""
@@ -57,6 +59,8 @@ controller_templates:
     project: "[Team02] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "XXXX.yml"
+    extra_vars:
+      team_name: "team02"
 
   - name: "VGVhbTAzIFN0ZXAwCg=="
     description: ""
@@ -80,6 +84,8 @@ controller_templates:
     project: "[Team03] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "XXXX.yml"
+    extra_vars:
+      team_name: "team03"
 
   - name: "VGVhbTA0IFN0ZXAwCg=="
     description: ""
@@ -103,6 +109,8 @@ controller_templates:
     project: "[Team04] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "XXXX.yml"
+    extra_vars:
+      team_name: "team04"
 
   - name: "VGVhbTA1IFN0ZXAwCg=="
     description: ""
@@ -126,4 +134,6 @@ controller_templates:
     project: "[Team05] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "XXXX.yml"
+    extra_vars:
+      team_name: "team05"
 ...
