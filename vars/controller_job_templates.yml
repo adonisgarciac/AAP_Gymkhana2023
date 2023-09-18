@@ -35,7 +35,7 @@ controller_templates:
     inventory: "Localhost"
     playbook: "XXXX.yml"
     extra_vars:
-      team_name: "team01"
+      team_name: "team01quarkus"
 
   - name: "VGVhbTAyIFN0ZXAwCg=="
     description: ""
@@ -60,7 +60,7 @@ controller_templates:
     inventory: "Localhost"
     playbook: "XXXX.yml"
     extra_vars:
-      team_name: "team02"
+      team_name: "team02ansible"
 
   - name: "VGVhbTAzIFN0ZXAwCg=="
     description: ""
@@ -85,7 +85,7 @@ controller_templates:
     inventory: "Localhost"
     playbook: "XXXX.yml"
     extra_vars:
-      team_name: "team03"
+      team_name: "team03tekton"
 
   - name: "VGVhbTA0IFN0ZXAwCg=="
     description: ""
@@ -110,7 +110,7 @@ controller_templates:
     inventory: "Localhost"
     playbook: "XXXX.yml"
     extra_vars:
-      team_name: "team04"
+      team_name: "team04argo"
 
   - name: "VGVhbTA1IFN0ZXAwCg=="
     description: ""
@@ -135,5 +135,5 @@ controller_templates:
     inventory: "Localhost"
     playbook: "XXXX.yml"
     extra_vars:
-      team_name: "team05"
+      team_name: "team05podman"
 ...

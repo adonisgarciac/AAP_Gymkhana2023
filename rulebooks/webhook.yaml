@@ -13,7 +13,7 @@
 
   rules:
     - name: Telegram message for team01
-      condition: event.payload.message == "team01"
+      condition: event.payload.message == "team01quarkus"
       actions:
         - run_job_template:
             name: "Send Telegram"
@@ -23,7 +23,7 @@
                  team_name: team01
 
     - name: Telegram message for team02
-      condition: event.payload.message == "team02"
+      condition: event.payload.message == "team02ansible"
       action:
         run_job_template:
           name: "Send Telegram"
@@ -33,7 +33,7 @@
                team_name: team02
 
     - name: Telegram message for team03
-      condition: event.payload.message == "team03"
+      condition: event.payload.message == "team03tekton"
       action:
         run_job_template:
           name: "Send Telegram"
@@ -43,7 +43,7 @@
                team_name: team03
 
     - name: Telegram message for team04
-      condition: event.payload.message == "team04"
+      condition: event.payload.message == "team04argo"
       action:
         run_job_template:
           name: "Send Telegram"
@@ -53,7 +53,7 @@
                team_name: team04
 
     - name: Telegram message for team05
-      condition: event.payload.message == "team05"
+      condition: event.payload.message == "team05podman"
       action:
         run_job_template:
           name: "Send Telegram"
