@@ -4,7 +4,8 @@ controller_projects:
     description: "Project to include playbooks for Admin"
     organization: "Default"
     scm_type: git
-    scm_url: "https://github.com/adonisgarciac/AAP_Gymkhana2023.git"
+    scm_url: "git@github.com:adonisgarciac/AAP_Gymkhana2023.git"
+    scm_credential: "Github gymkhana"
 
   - name: "[Team01] AAP Gymkhana2023 Teams"
     description: "Project to include playbooks to play during Gymkhana2023"
