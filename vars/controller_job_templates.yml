@@ -27,6 +27,8 @@ controller_templates:
     project: "[Team01] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "YYYY.yml"
+    credentials:
+      - "Team01 Info Jobs MDE="
 
   - name: "VGVhbTAxIFN0ZXAyCg=="
     description: ""
@@ -52,6 +54,8 @@ controller_templates:
     project: "[Team02] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "YYYY.yml"
+    credentials:
+      - "Team02 Info Jobs MDE="
 
   - name: "VGVhbTAyIFN0ZXAyCg=="
     description: ""
@@ -77,6 +81,8 @@ controller_templates:
     project: "[Team03] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "YYYY.yml"
+    credentials:
+      - "Team03 Info Jobs MDE="
 
   - name: "VGVhbTAzIFN0ZXAyCg=="
     description: ""
@@ -102,6 +108,8 @@ controller_templates:
     project: "[Team04] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "YYYY.yml"
+    credentials:
+      - "Team04 Info Jobs MDE="
 
   - name: "VGVhbTA0IFN0ZXAyCg=="
     description: ""
@@ -127,6 +135,8 @@ controller_templates:
     project: "[Team05] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
     playbook: "YYYY.yml"
+    credentials:
+      - "Team05 Info Jobs MDE="
 
   - name: "VGVhbTA1IFN0ZXAyCg=="
     description: ""
