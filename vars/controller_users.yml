@@ -1,22 +1,22 @@
 ---
 controller_user_accounts:
-- username: "admin_team01"
+- username: "team01"
   password: "{{ pass_team01 }}"
   is_auditor: False
   is_superuser: False
-- username: "admin_team02"
+- username: "team02"
   password: "{{ pass_team02 }}"
   is_auditor: False
   is_superuser: False
-- username: "admin_team03"
+- username: "team03"
   password: "{{ pass_team03 }}"
   is_auditor: False
   is_superuser: False
-- username: "admin_team04"
+- username: "team04"
   password: "{{ pass_team04 }}"
   is_auditor: False
   is_superuser: False
-- username: "admin_team05"
+- username: "team05"
   password: "{{ pass_team05 }}"
   is_auditor: False
   is_superuser: False
