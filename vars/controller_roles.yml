@@ -3,21 +3,133 @@ controller_roles:
   - user: "team01"
     organizations:
       - "Team01"
-    role: admin
+    roles:
+      - "workflow_admin"
+      - "job_template_admin"
+      - "member"
   - user: "team02"
     organizations:
       - "Team02"
-    role: admin
+    roles:
+      - "workflow_admin"
+      - "job_template_admin"
+      - "member"
   - user: "team03"
     organizations:
       - "Team03"
-    role: admin
+    roles:
+      - "workflow_admin"
+      - "job_template_admin"
+      - "member"
   - user: "team04"
     organizations:
       - "Team04"
-    role: admin
+    roles:
+      - "workflow_admin"
+      - "job_template_admin"
+      - "member"
   - user: "team05"
     organizations:
       - "Team05"
-    role: admin
+    roles:
+      - "workflow_admin"
+      - "job_template_admin"
+      - "member"
+
+  - users: 
+      - "team01"
+      - "team02"
+      - "team03"
+      - "team04"
+      - "team05"
+    inventory: "Localhost"
+    role: use
+
+  - user: "team01"
+    project: "[Team01] AAP Gymkhana2023 Teams"
+    role: use
+  - user: "team02"
+    project: "[Team02] AAP Gymkhana2023 Teams"
+    role: use
+  - user: "team03"
+    project: "[Team03] AAP Gymkhana2023 Teams"
+    role: use
+  - user: "team04"
+    project: "[Team04] AAP Gymkhana2023 Teams"
+    role: use
+  - user: "team05"
+    project: "[Team05] AAP Gymkhana2023 Teams"
+    role: use
+
+  - user: "team01"
+    credentials: 
+      - "Team01 Info Jobs MDA="
+      - "Team01 Info Jobs MDE="
+      - "Team01 Info Jobs MDI="
+    role: use
+  - user: "team02"
+    credentials: 
+      - "Team02 Info Jobs MDA="
+      - "Team02 Info Jobs MDE="
+      - "Team02 Info Jobs MDI="
+    role: use
+  - user: "team03"
+    credentials: 
+      - "Team03 Info Jobs MDA="
+      - "Team03 Info Jobs MDE="
+      - "Team03 Info Jobs MDI="
+    role: use
+  - user: "team04"
+    credentials: 
+      - "Team04 Info Jobs MDA="
+      - "Team04 Info Jobs MDE="
+      - "Team04 Info Jobs MDI="
+    role: use
+  - user: "team05"
+    credentials: 
+      - "Team05 Info Jobs MDA="
+      - "Team05 Info Jobs MDE="
+      - "Team05 Info Jobs MDI="
+    role: use
+
+  # - user: "team01"
+  #   job_templates: 
+  #     - "VGVhbTAxIFN0ZXAwCg=="
+  #     - "VGVhbTAxIFN0ZXAxCg=="
+  #     - "VGVhbTAxIFN0ZXAyCg=="
+  #   role: admin
+  # - user: "team02"
+  #   job_templates: 
+  #     - "VGVhbTAyIFN0ZXAwCg=="
+  #     - "VGVhbTAyIFN0ZXAxCg=="
+  #     - "VGVhbTAyIFN0ZXAyCg=="
+  #   role: admin
+  # - user: "team03"
+  #   job_templates: 
+  #     - "VGVhbTAzIFN0ZXAwCg=="
+  #     - "VGVhbTAzIFN0ZXAxCg=="
+  #     - "VGVhbTAzIFN0ZXAyCg=="
+  #   role: admin
+  # - user: "team04"
+  #   job_templates: 
+  #     - "VGVhbTA0IFN0ZXAwCg=="
+  #     - "VGVhbTA0IFN0ZXAxCg=="
+  #     - "VGVhbTA0IFN0ZXAyCg=="
+  #   role: admin
+  # - user: "team05"
+  #   job_templates: 
+  #     - "VGVhbTA1IFN0ZXAwCg=="
+  #     - "VGVhbTA1IFN0ZXAxCg=="
+  #     - "VGVhbTA1IFN0ZXAyCg=="
+  #   role: admin
+
+  # - users: 
+  #     - "team01"
+  #     - "team02"
+  #     - "team03"
+  #     - "team04"
+  #     - "team05"
+  #   roles:
+  #     - "workflow_admin"
+  #     - "job_template_admin"
 ...
