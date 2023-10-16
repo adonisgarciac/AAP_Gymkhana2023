@@ -13,7 +13,7 @@ controller_templates:
       - "Vault Credential"
 
   - name: "VGVhbTAxIFN0ZXAwCg=="
-    description: ""
+    description: "VGVhbTAxIFN0ZXAwCg=="
     organization: "Team01"
     project: "[Team01] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -22,7 +22,7 @@ controller_templates:
       - "Team01 Info Jobs MDA="
 
   - name: "VGVhbTAxIFN0ZXAxCg=="
-    description: ""
+    description: "VGVhbTAxIFN0ZXAxCg=="
     organization: "Team01"
     project: "[Team01] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -31,7 +31,7 @@ controller_templates:
       - "Team01 Info Jobs MDE="
 
   - name: "VGVhbTAxIFN0ZXAyCg=="
-    description: ""
+    description: "VGVhbTAxIFN0ZXAyCg=="
     organization: "Team01"
     project: "[Team01] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -40,7 +40,7 @@ controller_templates:
       team_name: "team01quarkus"
 
   - name: "VGVhbTAyIFN0ZXAwCg=="
-    description: ""
+    description: "VGVhbTAyIFN0ZXAwCg=="
     organization: "Team02"
     project: "[Team02] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -49,7 +49,7 @@ controller_templates:
       - "Team02 Info Jobs MDA="
 
   - name: "VGVhbTAyIFN0ZXAxCg=="
-    description: ""
+    description: "VGVhbTAyIFN0ZXAxCg=="
     organization: "Team02"
     project: "[Team02] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -58,7 +58,7 @@ controller_templates:
       - "Team02 Info Jobs MDE="
 
   - name: "VGVhbTAyIFN0ZXAyCg=="
-    description: ""
+    description: "VGVhbTAyIFN0ZXAyCg=="
     organization: "Team02"
     project: "[Team02] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -67,7 +67,7 @@ controller_templates:
       team_name: "team02ansible"
 
   - name: "VGVhbTAzIFN0ZXAwCg=="
-    description: ""
+    description: "VGVhbTAzIFN0ZXAwCg=="
     organization: "Team03"
     project: "[Team03] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -76,7 +76,7 @@ controller_templates:
       - "Team03 Info Jobs MDA="
 
   - name: "VGVhbTAzIFN0ZXAxCg=="
-    description: ""
+    description: "VGVhbTAzIFN0ZXAxCg=="
     organization: "Team03"
     project: "[Team03] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -85,7 +85,7 @@ controller_templates:
       - "Team03 Info Jobs MDE="
 
   - name: "VGVhbTAzIFN0ZXAyCg=="
-    description: ""
+    description: "VGVhbTAzIFN0ZXAyCg=="
     organization: "Team03"
     project: "[Team03] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -94,7 +94,7 @@ controller_templates:
       team_name: "team03tekton"
 
   - name: "VGVhbTA0IFN0ZXAwCg=="
-    description: ""
+    description: "VGVhbTA0IFN0ZXAwCg=="
     organization: "Team04"
     project: "[Team04] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -103,7 +103,7 @@ controller_templates:
       - "Team04 Info Jobs MDA="
 
   - name: "VGVhbTA0IFN0ZXAxCg=="
-    description: ""
+    description: "VGVhbTA0IFN0ZXAxCg=="
     organization: "Team04"
     project: "[Team04] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -112,7 +112,7 @@ controller_templates:
       - "Team04 Info Jobs MDE="
 
   - name: "VGVhbTA0IFN0ZXAyCg=="
-    description: ""
+    description: "VGVhbTA0IFN0ZXAyCg=="
     organization: "Team04"
     project: "[Team04] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -121,7 +121,7 @@ controller_templates:
       team_name: "team04argo"
 
   - name: "VGVhbTA1IFN0ZXAwCg=="
-    description: ""
+    description: "VGVhbTA1IFN0ZXAwCg=="
     organization: "Team05"
     project: "[Team05] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -130,7 +130,7 @@ controller_templates:
       - "Team05 Info Jobs MDA="
 
   - name: "VGVhbTA1IFN0ZXAxCg=="
-    description: ""
+    description: "VGVhbTA1IFN0ZXAxCg=="
     organization: "Team05"
     project: "[Team05] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
@@ -139,7 +139,7 @@ controller_templates:
       - "Team05 Info Jobs MDE="
 
   - name: "VGVhbTA1IFN0ZXAyCg=="
-    description: ""
+    description: "VGVhbTA1IFN0ZXAyCg=="
     organization: "Team05"
     project: "[Team05] AAP Gymkhana2023 Teams"
     inventory: "Localhost"
